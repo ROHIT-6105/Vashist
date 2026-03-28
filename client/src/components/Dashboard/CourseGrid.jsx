@@ -1,5 +1,6 @@
 import React from "react";
 import CourseCard from "./CourseCard";
+import "./Course.css";
 
 const CourseGrid = ({ courses }) => {
     return (

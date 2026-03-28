@@ -3,20 +3,22 @@ import Navbar from "../components/Dashboard/Navbar";
 import Sidebar from "../components/Dashboard/Sidebar";
 import CourseGrid from "../components/Dashboard/CourseGrid";
 import EmptyState from "../components/Dashboard/EmptyState";
-import "../components/Dashboard/Dashboard.css";
+import "../components/Dashboard/Layout.css";
 
 const DashboardPage = () => {
     // TEMP DATA (you can empty this to test EmptyState)
     const courses = [
         {
             id: 1,
-            title: "Database Systems Practice",
+            title: "Database Systems",
             instructor: "Ratanraju Mekala",
+            tokens: 120,
         },
         {
             id: 2,
             title: "DBMS Theory",
             instructor: "Dinesh R",
+            tokens: 80,
         },
     ];
 

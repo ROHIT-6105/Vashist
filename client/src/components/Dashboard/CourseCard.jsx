@@ -9,8 +9,9 @@ const CourseCard = ({ course }) => {
             </div>
 
             <div className="card-footer">
-                <span>📁</span>
-                <span>📄</span>
+                <p className="token-text">
+                    Tokens Left: <strong>{course.tokens}</strong>
+                </p>
             </div>
         </div>
     );
